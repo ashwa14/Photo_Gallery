@@ -4,13 +4,50 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A fully functional Photo Gallery application built with Flutter using BLoC for state management. This app fetches images from Picsum API
+ and provides features like responsive grid view, image details, favorites, pull-to-refresh, shimmer loading effect, and hero animations.
 
-A few resources to get you started if this is your first Flutter project:
+Project Structure: 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ lib/
+  assets/
+    piscum_image.dart
+  Bloc/
+    Home/
+      home_bloc.dart
+      home_event.dart
+      home_state.dart
+    Login/
+      login_bloc.dart
+      login_event.dart
+      login_state.dart
+    Navigation/
+      home.dart
+      login.dart
+    widgets/
+      image.dart
+  store/
+    auth.dart
+    piscum.dart
+  main.dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+- Bloc → Contains all state management logic
+
+- Navigation → Screens & UI
+
+- Widgets → Reusable components
+
+- Store → Local data handling and APIs
+
+Dependencies
+
+flutter_bloc – State management
+
+google_fonts – Custom fonts
+
+http – API requests
+
+shimmer – Loading effect
+
+
