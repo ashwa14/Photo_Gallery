@@ -33,18 +33,21 @@ lib/
 
 
   Bloc → Contains all state management logic
+  
   Navigation → Screens & UI
+  
   Widgets → Reusable components
+  
   Store → Local data handling and APIs
 
 Dependencies
 
-flutter_bloc – State management
+- flutter_bloc – State management
 
-google_fonts – Custom fonts
+- google_fonts – Custom fonts
 
-http – API requests
+- http – API requests
 
-shimmer – Loading effect
+- shimmer – Loading effect
 
 
