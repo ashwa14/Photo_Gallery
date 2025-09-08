@@ -9,7 +9,7 @@ A fully functional Photo Gallery application built with Flutter using BLoC for s
 
 Project Structure: 
 
- - lib/
+lib/
   - assets/
     - piscum_image.dart
   - Bloc/
@@ -32,13 +32,10 @@ Project Structure:
   - main.dart
 
 
-- Bloc → Contains all state management logic
-
-- Navigation → Screens & UI
-
-- Widgets → Reusable components
-
-- Store → Local data handling and APIs
+  Bloc → Contains all state management logic
+  Navigation → Screens & UI
+  Widgets → Reusable components
+  Store → Local data handling and APIs
 
 Dependencies
 
