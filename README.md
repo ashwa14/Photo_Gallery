@@ -17,14 +17,14 @@ Project Structure:
       - home_bloc.dart
       - home_event.dart
       - home_state.dart
-    Login/
+    - Login/
       - login_bloc.dart
       - login_event.dart
       - login_state.dart
-    Navigation/
+    - Navigation/
       - home.dart
       - login.dart
-    widgets/
+    - widgets/
       - image.dart
   - store/
     - auth.dart
